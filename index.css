@@ -52,14 +52,14 @@ li a:hover {
 }
 
 article {
+    float: left;
     min-height: calc(100vh - 70px);
     min-height: 100%;
     text-align: justify;
-    float: left;
-    padding-top: 1%;
+    align-content: center;
     padding-left: 7%;
-    padding-right: 18%;
-    width: 85%;
+    margin: auto;
+    width: 70%;
     background-color: white;
     font-size: 120%;
 }
@@ -80,7 +80,7 @@ footer {
 }
 
 div {
-    margin: 50px;
+    margin: auto;
 }
 
 .big-header {
@@ -97,8 +97,9 @@ div {
 
 .sample {
     text-align: justify;
-    padding-left: 7%;
-    padding-right: 9%;
+    padding-left: 16%;
+    padding-right: 18%;
+    margin: auto;
 }
 
 .row {
@@ -134,13 +135,11 @@ div {
 }
 
 div.gallery {
-    position: relative;
     border: 3px solid #CCCCCC;
     float: left;
     width: 25%;
     height: 325px;
     overflow: hidden;
-    padding: 0%;
     margin: 0px;
     margin-left: 20px;
 }
@@ -155,12 +154,10 @@ div.gallery img {
 }
   
 div.desc {
-    position: absolute;
     font-weight: 700;
     font-size: 130%;
     padding: 0px;
     bottom: 0px;
-    margin: 0px;
-    text-align: center;
+    margin: auto;
 }
 
